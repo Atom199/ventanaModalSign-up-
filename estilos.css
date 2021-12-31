@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.section1 {
+    margin: 5px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.x {
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0px 25px;
+    padding: 5px;
+}
+
+.textregistro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn-registro {
+    padding: 2.5px;
+}
+
+.fecha {
+    margin: 5px;
+}
+
+.sexo {
+    margin: 5px;
+}
+
+input {
+    margin: 5px;
+}
